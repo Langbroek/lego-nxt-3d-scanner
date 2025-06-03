@@ -1,0 +1,25 @@
+[project]
+name = "ln3d_scanner"  
+version = "0.1.0"  
+description = "Lego NXT 3d scanner for generating 3d models using lego nxt."  
+readme = "README.md" 
+requires-python = ">=3.7"
+license = {file = "LICENSE"}
+
+maintainers = [
+  {name = "Kevin Langbroek", email = "kevinlangbroek1@gmail.com" } 
+]
+
+dependencies = [
+    "nxt-python"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools]
+package-dir = {""= "src"}
+
+
+[project.urls] 
+"Homepage" = "https://github.com/Langbroek/lego-nxt-3d-scanner"
